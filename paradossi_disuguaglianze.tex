@@ -1,0 +1,282 @@
+\documentclass{beamer}
+\usepackage{chronosys}
+\usepackage{tikz}
+
+\usepackage{ifpdf}
+\ifpdf
+\usepackage{hyperref}
+%\pdfadjustspacing=1
+%\fi
+
+\mode<presentation>
+ {
+  \usetheme{Frankfurt}
+   \usecolortheme[rgb={0.36,0.54,0.66}]{structure}
+   
+   \definecolor{inaf}{HTML}{1D71B8}
+   %\definecolor{ashgrey}{rgb}{0.7, 0.75, 0.71}
+   \definecolor{autumn}{rgb}{0.7, 0.75, 0.71}
+   \definecolor{autumn1}{rgb}{0.7, 0.75, 0.71}
+   \definecolor{autumn2}{rgb}{0.36, 0.54, 0.66}
+   
+   \definecolor{blue}{HTML}{84CECC}
+   \definecolor{gr}{HTML}{375D81}
+
+\setbeamercolor{alerted text}{fg=inaf!80!yellow}
+\setbeamercolor*{palette primary}{fg=inaf!60!black,bg=autumn}
+\setbeamercolor*{palette secondary}{fg=white!70!black,bg=autumn2}
+\setbeamercolor*{palette tertiary}{bg=white!80!black,fg=autumn2}
+\setbeamercolor*{palette quaternary}{fg=white,bg=autumn2}
+
+\setbeamercolor*{sidebar}{fg=inaf,bg=autumn}
+
+\setbeamercolor*{palette sidebar primary}{fg=inaf!10!black}
+\setbeamercolor*{palette sidebar secondary}{fg=white}
+\setbeamercolor*{palette sidebar tertiary}{fg=inaf!50!black}
+\setbeamercolor*{palette sidebar quaternary}{fg=yellow!10!orange}
+
+\setbeamercolor*{titlelike}{parent=palette primary}
+\setbeamercolor{frametitle}{bg=autumn1}
+\setbeamercolor{frametitle right}{bg=autumn}
+
+\setbeamercolor*{separation line}{}
+\setbeamercolor*{fine separation line}{}
+
+\mode
+<all>
+   
+   %\usecolortheme{wolverine}
+   \usecolortheme{rose}
+   \usefonttheme{serif}
+%   \setbeamercolor{section in toc}{fg=red}
+ }
+
+\title[Paradossi]{Una storia di paradossi, disuguaglianze e baffi}
+\author[G.Filippelli]{Gianluigi Filippelli}
+\date{Liceo "C. Cavalleri", Parabiago (Milano). 22/02/2018}
+
+\usepackage[latin1]{inputenc}
+\usepackage[italian]{babel}
+\usepackage{times}
+%
+\begin{document}
+%
+\begin{frame}
+ \titlepage
+\end{frame}
+%
+% Introduzione
+%
+\section{Introduzione}
+%
+\begin{frame}
+	\frametitle{Il fondamentale contributo dei gatti alla meccanica quantistica}
+	\begin{center}
+		\includegraphics[width=7cm]{files/doppiafenditura_gatti.jpg}
+	\end{center}
+	\begin{center}
+		\href{https://youtu.be/IOYyCHGWJq4}{\textcolor{inaf}{Video 1}} (Minute Physics) | \href{https://youtu.be/d1tn56vWU_g}{\textcolor{inaf}{Video 2}} (Open University)
+	\end{center}
+\end{frame}
+%
+\begin{frame}
+	\frametitle{Voci interiori}
+	\begin{block}{Albert Einstein}
+		La meccanica quantistica è certamente imponente. Ma una voce interiore mi dice che non è ancora reale. La teoria dice molto, ma non ci conduce realmente più vicino al segreto del "grande vecchio". Io, in ogni caso, sono convinto che Egli non gioca a dadi.
+	\end{block}
+\end{frame}
+%
+\begin{frame}
+	\frametitle{Paradosso EPR}
+	\begin{enumerate}
+		\item la descrizione quanto-meccanica della realtà data dalla funzione d'onda non è completa
+		\onslide<2->{\item quando gli operatori corrispondenti a due quantità fisiche non commutano le due quantità non possono avere una realtà simultanea}
+	\end{enumerate}
+	\onslide<3->{\begin{block}{Conclusione}
+		\only<3>{La negazione di (1) implica la negazione di (2) quindi \emph{La descrizione della realtà fisica data dalla funzione d'onda non è completa}.}
+		\only<4>{\emph{Mentre abbiamo così mostrato che la funzione d'onda non fornisce una descrizione completa della realtà fisica, lasciamo aperta la questione se esista o meno una descrizione di tale genere. Crediamo, comunque, che una tale teoria è possibile.}}
+	\end{block}}
+\end{frame}
+% http://cds.cern.ch/record/425513/files/0002007.pdf
+%
+% Variabili nascoste
+%
+\section{Le variabili nascoste}
+%
+\begin{frame}
+	\frametitle{La proposta di David Bohm: le origini}
+	\begin{tikzpicture}[every node/.style={inner sep=0,outer sep=0}]
+		\node at (0,0) () {\includegraphics[width=5cm]{files/debroglie_foto.jpg}};
+		\node at (6,2.5) () {Nel 1924 propose per l'elettrone};
+		\node at (6,2) () {l'esistenza di un orologio interno,};
+		\node at (6,1.5) () {parte di un meccanismo da cui};
+		\node at (6,1) () {un'onda pilota guiderebbe la particella.};
+		\node at (6,0.5) () {Tale proposta venne abbandonata};
+		\node at (6,0) () {dallo stesso de Broglie.};
+	\end{tikzpicture}
+\end{frame}
+%
+\begin{frame}
+	\frametitle{La proposta di David Bohm}
+	\begin{tikzpicture}[every node/.style={inner sep=0,outer sep=0}]
+		\node at (0,0) () {\includegraphics[width=5cm]{files/david_bohm.jpg}};
+		\node at (6,3.5) () {La velocità di ciascuna particella};
+		\node at (6,3) () {dipende dall'equazione principale};
+		\node at (6,2.5) () {che dipende dalla};
+		\node at (6,2) () {configurazione iniziale dell'universo.};
+		\node at (6,1.5) () {Esiste una configurazione che};
+		\node at (6,1) () {non può essere osservata:};
+		\node at (6,0.5) () {essa è costituita dalle};
+		\node at (6,0) () {variabili nascoste.};
+	\end{tikzpicture}
+\end{frame}
+%
+\section{La disuguaglianza di Bell}
+%
+\begin{frame}
+	\frametitle{Il teorema di Bell}
+	\begin{block}{L'enunciato}
+		Nessuna teoria fisica delle variabili nascoste locali può mai riprodurre tutte le predizioni della meccanica quantistica
+	\end{block}
+	\begin{center}
+		\includegraphics[width=5cm]{files/bells_theorem.png}
+	\end{center}
+\end{frame}
+%
+\begin{frame}
+	\frametitle{La disuguaglianza di Bell}
+	\begin{tikzpicture}[every node/.style={inner sep=0,outer sep=0}]
+		\node at (6,0) () {\includegraphics[width=4cm]{files/JohnStewartBell.jpg}};
+		\node at (0,2) () {$a$ quelli con un'altezza superiore a 1.73 m};
+		\node at (0,1.5) () {$b$ quelli con più di 50.03 euro in tasca};
+		\node at (0,1) () {$c$ quelli di sesso maschile};
+		\onslide<2->{\node at (0,0.5) () {$N(a,b,\bar c) + N (\bar a, \bar b, c) \geq 0$};}
+		\onslide<3->{\node at (0,0) () {$N(a,b,c) + N (a,\bar b,c) + N(a,b,\bar c) + N (\bar a, \bar b, c) \geq$};}
+		\onslide<3->{\node at (0,-0.5) () {$N(a,b,c) + N (a,\bar b,c)$};}
+		\onslide<4->{\node at (0,-1) () {$N(a,b) + N(\bar b, c) \geq N(a,c)$};}
+		\onslide<5>{\node at (0,-1.5) () {\textcolor{red}{$N(a,b) + N(\bar b, c) \not \geq N(a,c)$}};}
+	\end{tikzpicture}
+\end{frame}
+%
+% Entanglement
+%
+\section{Intricazione}
+%
+\begin{frame}
+	\frametitle{\emph{Mi si sono intrecciati i diti}}
+	\begin{center}
+		\begin{tikzpicture}[every node/.style={inner sep=0,outer sep=0}]
+			\node at (0,0) () {\includegraphics[width=5cm]{files/paolo_villaggio_diti.jpg}};
+		\end{tikzpicture}
+	\end{center}
+	\begin{block}{}
+		\begin{center}
+			\emph{Entanglement} $\rightarrow$ Intricazione
+		\end{center}
+	\end{block}
+\end{frame}
+%
+\begin{frame}
+	\frametitle{Cos'è l'entanglement}
+	\begin{block}{}
+		\begin{center}
+			Il primo a utilizzare il termine fu Erwin Schroedinger in un articolo successivo a quello del paradosso EPR
+		\end{center}
+	\end{block}
+	\begin{block}{Le conclusioni di Schroedinger}
+		\emph{Il paradosso potrebbe essere sciolto, però, se un'osservazione non fosse legata a un momento preciso. Ciò, però, renderebbe l'attuale interpretazione della meccanica quantistica priva di significato, poiché al momento gli oggetti delle sue predizioni sono considerati il risultato di misure in determinati momenti di tempo.}
+	\end{block}
+	%The paradox would be shaken, though, if an observation did not relate to a definite moment. But this would make the present interpretation of quantum mechanics meaningless, because at present the objects of its predictions are considered to be the results of measurements for definite moments of time.
+\end{frame}
+%
+\begin{frame}
+	\frametitle{Cos'è l'entanglement}
+	\begin{block}{Una definizione}
+		Secondo la meccanica quantistica è possibile realizzare un insieme costituito da due particelle caratterizzato da determinati valori globali di alcune osservabili. Ciò comporta che il valore misurato per una particella di una proprietà definita dell'insieme influenzi istantaneamente il corrispondente valore dell'altra, che risulterà tale da mantenere il valore globale iniziale. Ciò rimane vero anche nel caso le due particelle si trovino distanziate, senza alcun limite spaziale.
+	\end{block}
+\end{frame}
+%
+\begin{frame}
+	\frametitle{Testare l'entanglement}
+	\begin{tikzpicture}[every node/.style={inner sep=0,outer sep=0}]
+		\node at (0,2) () {1969 John Clauser con Michael Horne, Abner Shimony, Richard Holt};
+		\node at (0,1.5) () {proposta di un esperimento per testare le teorie delle variabili nascoste};
+		\node at (0,1) () {1972 John Clauser con Stuart Freedman:};
+		\node at (0,0.5) () {esecuzione dell'esperimento};
+		\onslide<2->{\node at (0,0) () {1982: Alain Aspect, Philippe Grangier, Gérard Roger};}
+		\onslide<3->{\node at (0,-0.5) () {1998: Gregor Weihs, Thomas Jennewein, Christoph Simon,};}
+		\onslide<3->{\node at (0,-1) () {Harald Weinfurter, Anton Zeilinger};}
+		\onslide<3->{\node at (0,-1.5) () {1998: W. Tittel, J. Brendel, H. Zbinden, N. Gisin};}
+		\onslide<4-5>{\node at (0,-2) () {2007: Simon Gröblacher, Tomasz Paterek, Rainer Kaltenbaek,};}
+		\onslide<4-5>{\node at (0,-2.5) () {Caslav Brukner, Marek Zukowski, Markus Aspelmeyer, Anton Zeilinger};}
+		\onslide<6->{\node[red] at (0,-2) () {2007: Simon Gröblacher, Tomasz Paterek, Rainer Kaltenbaek,};}
+		\onslide<6->{\node[red] at (0,-2.5) () {Caslav Brukner, Marek Zukowski, Markus Aspelmeyer, Anton Zeilinger};}
+		\onslide<4, 6->{\node at (0,-3) () {2015 B. Hensen, \emph{et al.}};}
+		\onslide<5>{\node[red] at (0,-3) () {2015 B. Hensen, \emph{et al.}};}
+		\onslide<5>{\filldraw[fill=black!70!white, rounded corners=4pt, draw=black!10!white] (-2.4,-3.6) rectangle (2.6,-4.6);
+		\filldraw[fill=inaf!10!white, rounded corners=4pt, draw=inaf!10!white] (-2.5,-3.5) rectangle (2.5,-4.5);
+		\onslide<5>{\node at (0,-4) {Crolla il realismo locale};}}
+	    \onslide<6->{\filldraw[fill=black!70!white, rounded corners=4pt, draw=black!10!white] (-3.9,-3.6) rectangle (4.1,-4.6);
+	    \filldraw[fill=inaf!10!white, rounded corners=4pt, draw=inaf!10!white] (-4,-3.5) rectangle (4,-4.5);
+	    \onslide<6>{\node at (0,-3.8) {Esperimento per verificare la violazione della};
+	    \node at (0,-4.3) {disuguaglianza di Leggett};}
+		\onslide<7>{\node at (0,-3.8) {essa implica che il realismo e alcuni tipi};
+		\node at (0,-4.3) {di non-località non sono compatibili};}}
+	\end{tikzpicture}
+\end{frame}
+%
+% Computer quantistici
+%
+\section{Computer quantistici}
+%
+\begin{frame}
+	\frametitle{Teoria dell'informazione quantistica}
+	\begin{itemize}
+		\item No-cloning: l'informazione quantistica non può essere copiata con fedeltà assoluta, e quindi neanche letta con fedeltà assoluta. (William Wootters, 1982).
+		\item L'informazione quantistica può invece essere trasferita con fedeltà assoluta, a patto che l'originale venga distrutto nel processo. Il teletrasporto quantistico è stato ottenuto per la prima volta da Nielsen, Klinn e LaFlamme nel 1998.
+		\item Ogni misura compiuta su di un sistema quantistico distrugge la maggior parte dell'informazione, lasciandolo in uno stato base. L'informazione distrutta non può essere recuperata. Ciò è una derivazione diretta dai postulati della meccanica quantistica (PMQ).
+	\end{itemize}
+\end{frame}
+%
+\begin{frame}
+	\frametitle{Teoria dell'informazione quantistica}
+	\begin{itemize}
+		\item Anche se in qualche caso è possibile conoscere esattamente in che stato base si troverà il sistema dopo una misura, il più delle volte avremo solo previsioni probabilistiche. Anche questo deriva direttamente dai PMQ.
+		\item Alcune osservabili non possono avere simultaneamente valori definiti con precisione, per il principio di indeterminazione di Heisenberg. Ciò ci impedisce sia di stabilire con esattezza le condizioni iniziali prima del calcolo, sia di leggere i risultati con precisione.
+		\item L'informazione quantistica può essere codificata, e solitamente lo è, tramite correlazioni non-locali tra parti differenti di un sistema fisico. In pratica, si utilizza l'entanglement.
+	\end{itemize}
+\end{frame}
+%
+\begin{frame}
+	\frametitle{Teoria dell'informazione quantistica}
+	\begin{block}{Qubit}
+		Unità dell'informazione quantistica, equivalente al bit.\\
+		Sistema quanto-meccanico a due stati, come la polarizzazione di un singolo fotone (polarizzazione verticale e orizzontale). I qubit possono trovarsi in una sovrapposizione dei due stati, proprietà fondamentale nell'informazione e nella computazione quantistica.\\
+		La logica è dunque non booleana (tipo logica a più valori) come aveva già mostrato George Mackey (seconda metà degli anni Cinquanta del XX secolo).
+	\end{block}
+\end{frame}
+%
+\begin{frame}
+	\frametitle{Teoria dell'informazione quantistica}
+	\begin{block}{Qubit ed entanglement}
+		I qubit possono esibire entanglement.\\
+		L'entanglement è un ingrediente necessario per la computazione quantistica. Anche sistemi come il teletrasporto quantistico fanno uso dell'entanglement. Se un calcolo quantistico non coinvolge qubit intrecciati, allora può essere perfezionato con la stessa efficienza dalla computazione classica.
+	\end{block}
+	\onslide<2>{\begin{itemize}
+			\item \textcolor{inaf}{\href{https://en.wikipedia.org/wiki/Timeline_of_quantum_computing}{\emph{Timeline} della computazione quantistica su en.wiki}}
+		\end{itemize}}
+\end{frame}
+%
+\begin{frame}
+	\frametitle{Il punto di vista sperimentale}
+	\begin{tikzpicture}[every node/.style={inner sep=0,outer sep=0}]
+		\node at (0,0) () {\includegraphics[width=5cm]{files/alain_aspect.jpg}};
+		\node at (6,3) () {La conclusione che si può trarre};
+		\node at (6,2.5) () {è più una questione di gusto che di logica};
+		\node at (6,2) () {e si può dedurre che};
+		\node at (6,1.5) () {tale discussione};
+		\node at (6,1) () {è irrilevante per la scienza.};
+		\node at (6,0) () {Alain Aspect - 2007};
+	\end{tikzpicture}
+\end{frame}
+\end{document}
