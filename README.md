@@ -1,6 +1,6 @@
 Pagina che raccoglie le mie presentazioni. Realizzate con Beamer, per ognuna vengono indicati i *link* per il *file* in pdf e per il sorgente in LaTeX.
 
-# Autoaggiornamento Liceo Cavalleri di Parabiago
+# Liceo Cavalleri di Parabiago
 
 Presentazioni realizzate per una serie di incontri con gli insegnanti al Liceo *Cavalleri* di Parabiago (Milano)
 
