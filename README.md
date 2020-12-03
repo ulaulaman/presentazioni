@@ -10,6 +10,10 @@ Presentazioni realizzate per una serie di incontri con gli insegnanti al Liceo *
 * *Vincere un Nobel per la fisica con i disegni* ([.pdf](https://github.com/ulaulaman/presentazioni/blob/master/parabiago/pdf/feynman.pdf) | [.tex](https://github.com/ulaulaman/presentazioni/blob/master/parabiago/feynman.tex))
 * *Una storia di paradossi, disuguaglianze e baffi* ([.pdf](https://github.com/ulaulaman/presentazioni/blob/master/parabiago/pdf/paradossi_disuguaglianze.pdf) | [.tex](https://github.com/ulaulaman/presentazioni/blob/master/parabiago/paradossi_disuguaglianze.tex))
 
+*Come scrivere un articolo divulgativo sulla scienza*: intervento in una classe quarta
+* Presentazione ([.pdf](https://github.com/ulaulaman/presentazioni/blob/master/parabiago/pdf/parabiago_IFS.pdf) | [.tex](https://github.com/ulaulaman/presentazioni/blob/master/parabiago/parabiago_IFS.tex))
+* Testo intervento ([.pdf](https://github.com/ulaulaman/presentazioni/blob/master/parabiago/pdf/parabiago_IFS-articolo.pdf) | [.tex](https://github.com/ulaulaman/presentazioni/blob/master/parabiago/parabiago_IFS-articolo.tex))
+
 # Conferenze a congressi
 
 * *SAIt 2017* ([.pdf](https://github.com/ulaulaman/presentazioni/blob/master/conferenze/pdf/SAIt2017-filippelli_barbalini.pdf) | [.tex](https://github.com/ulaulaman/presentazioni/blob/master/conferenze/comunicarefisica2012.tex))
