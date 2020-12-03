@@ -1,0 +1,95 @@
+\documentclass{beamer}
+\usepackage{chronosys}
+\usepackage{tikz}
+
+\usepackage{ifpdf}
+\ifpdf
+\usepackage{hyperref}
+%\pdfadjustspacing=1
+%\fi
+
+\mode<presentation>
+ {
+  \usetheme{Frankfurt}
+   \usecolortheme[rgb={0.36,0.54,0.66}]{structure}
+   
+   \definecolor{inaf}{HTML}{1D71B8}
+   %\definecolor{ashgrey}{rgb}{0.7, 0.75, 0.71}
+   \definecolor{autumn}{rgb}{0.7, 0.75, 0.71}
+   \definecolor{autumn1}{rgb}{0.7, 0.75, 0.71}
+   \definecolor{autumn2}{rgb}{0.36, 0.54, 0.66}
+   
+   \definecolor{blue}{HTML}{84CECC}
+   \definecolor{gr}{HTML}{375D81}
+
+\setbeamercolor{alerted text}{fg=inaf!80!yellow}
+\setbeamercolor*{palette primary}{fg=inaf!60!black,bg=autumn}
+\setbeamercolor*{palette secondary}{fg=white!70!black,bg=autumn2}
+\setbeamercolor*{palette tertiary}{bg=white!80!black,fg=autumn2}
+\setbeamercolor*{palette quaternary}{fg=white,bg=autumn2}
+
+\setbeamercolor*{sidebar}{fg=inaf,bg=autumn}
+
+\setbeamercolor*{palette sidebar primary}{fg=inaf!10!black}
+\setbeamercolor*{palette sidebar secondary}{fg=white}
+\setbeamercolor*{palette sidebar tertiary}{fg=inaf!50!black}
+\setbeamercolor*{palette sidebar quaternary}{fg=yellow!10!orange}
+
+\setbeamercolor*{titlelike}{parent=palette primary}
+\setbeamercolor{frametitle}{bg=autumn1}
+\setbeamercolor{frametitle right}{bg=autumn}
+
+\setbeamercolor*{separation line}{}
+\setbeamercolor*{fine separation line}{}
+
+\mode
+<all>
+   
+   %\usecolortheme{wolverine}
+   \usecolortheme{rose}
+   \usefonttheme{serif}
+%   \setbeamercolor{section in toc}{fg=red}
+ }
+
+\title[Racconto]{Come scrivere un articolo divulgativo sulla scienza}
+\author[G.Filippelli]{Gianluigi Filippelli}
+\date{Liceo "C. Cavalleri", Parabiago (Milano). 08/05/2018}
+
+\usepackage[latin1]{inputenc}
+\usepackage[italian]{babel}
+\usepackage{times}
+%
+\begin{document}
+%
+\begin{frame}
+ \titlepage
+\end{frame}
+%
+% Introduzione
+%
+\section{Raccontare la scienza}
+%
+\begin{frame}
+	\frametitle{Consigli per raccontare la scienza}
+	\begin{itemize}
+		\item Scrivere di una data ricerca solo quando la si reputa interessante (non scrivere necessariamente di risultati recenti)
+		\onslide<2->{\item Essere certi di aver compreso la ricerca di cui si vuole scrivere}
+		\onslide<3->{\item Mostrare perché la ricerca è interessante}
+		\onslide<4->{\item Fornire dettagli su come la ricerca è stata condotta, o quanto meno dare un'idea sul metodo usato dai ricercatori}
+		\onslide<5->{\item Non includere dettagli rilevanti solo per gli scienziati}
+	\end{itemize}
+\end{frame}
+%
+\begin{frame}
+	\frametitle{Consigli per raccontare la scienza}
+	\begin{itemize}
+		\item Ridurre al minimo, se non addirittura non utilizzare il gergo scientifico (possono venire in aiuto un glossario o le voci su Wikipedia)
+		\onslide<2->{\item Bisogna raccontare una storia}
+		\onslide<3->{\item Non bisogna lasciare spazio ad ambiguità e cattive interpretazioni (possono venire in aiuto: abstract, uso del grassetto, suddivisione in sezioni)}
+		\onslide<4->{\item Uso delle immagini: utilizzare, quando possibile, i grafici dei ricercatori o comunque immagini aderenti alla ricerca raccontata}
+		\onslide<5->{\item Sintesi}
+		\onslide<6->{\item Uso delle fonti: non solo l'articolo di partenza della nostra storia}
+	\end{itemize}
+\end{frame}
+%
+\end{document}
