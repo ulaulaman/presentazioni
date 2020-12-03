@@ -1,0 +1,204 @@
+\documentclass{beamer}
+
+\usepackage{ifpdf}
+\ifpdf
+\usepackage[hyperindex]{hyperref}
+%\pdfadjustspacing=1
+%\fi
+
+\mode<presentation>
+ {
+  \usetheme{Frankfurt}
+   \usecolortheme[rgb={0.36,0.54,0.66}]{structure}
+   
+   \definecolor{inaf}{HTML}{1D71B8}
+   %\definecolor{ashgrey}{rgb}{0.7, 0.75, 0.71}
+   \definecolor{autumn}{rgb}{0.7, 0.75, 0.71}
+   \definecolor{autumn1}{rgb}{0.7, 0.75, 0.71}
+   \definecolor{autumn2}{rgb}{0.36, 0.54, 0.66}
+
+\setbeamercolor{alerted text}{fg=inaf!80!yellow}
+\setbeamercolor*{palette primary}{fg=inaf!60!black,bg=autumn}
+\setbeamercolor*{palette secondary}{fg=white!70!black,bg=autumn2}
+\setbeamercolor*{palette tertiary}{bg=white!80!black,fg=autumn2}
+\setbeamercolor*{palette quaternary}{fg=white,bg=autumn2}
+
+\setbeamercolor*{sidebar}{fg=inaf,bg=autumn}
+
+\setbeamercolor*{palette sidebar primary}{fg=inaf!10!black}
+\setbeamercolor*{palette sidebar secondary}{fg=white}
+\setbeamercolor*{palette sidebar tertiary}{fg=inaf!50!black}
+\setbeamercolor*{palette sidebar quaternary}{fg=yellow!10!orange}
+
+\setbeamercolor*{titlelike}{parent=palette primary}
+\setbeamercolor{frametitle}{bg=autumn1}
+\setbeamercolor{frametitle right}{bg=autumn}
+
+\setbeamercolor*{separation line}{}
+\setbeamercolor*{fine separation line}{}
+
+\mode
+<all>
+   
+   %\usecolortheme{wolverine}
+   \usecolortheme{rose}
+   \usefonttheme{serif}
+%   \setbeamercolor{section in toc}{fg=red}
+ }
+
+\title[Edu INAF]{Edu INAF\\Il nuovo portale per la didattica dell'Istituto Nazionale di Astrofisica}
+\author[G.Filippelli, L.Barbalini]{Gianluigi Filippelli, Laura Barbalini}
+\date{LXI Congresso della Societ\`a Astronomica Italiana, 14/09/2017}
+
+\usepackage[latin1]{inputenc}
+\usepackage[italian]{babel}
+\usepackage{times}
+%
+\begin{document}
+%
+\begin{frame}
+ \titlepage
+\end{frame}
+%
+% Cos'è e cosa fa
+%
+\section{Cos'è Edu INAF}
+\begin{frame}[eduinaf01]
+	\frametitle{Cos'è Edu INAF}	
+	Il portale EDU INAF è la piattaforma per la didattica e la divulgazione dell'Istituto Nazionale di Astrofisica.\\	
+	\emph{EDU INAF è stato realizzato all'interno del programma/piattaforma REAL (Risorse Educative per l'Astrofisica Laboraoriale) finanziato dal Ministero dell'Istruzione, Università e Ricerca (MIUR, Legge 6/2000), con la partecipazione di tutti gli Uffici di Didattica e Divulgazione dislocati nelle sedi INAF sul territorio italiano.}
+\end{frame}
+%
+\subsection{Cosa fa Edu INAF}
+\begin{frame}[eduinaf02]
+	\frametitle{Cosa fa Edu INAF}
+	\scriptsize
+	\begin{block}{Per le scuole e gli insegnanti}
+		Risorse didattiche, corsi on-line
+	\end{block}
+	\onslide<2->
+	\begin{block}{Per le sedi INAF}
+		Segnalazione attività ed eventi di didattica e divulgazione
+	\end{block}
+	\onslide<3->
+	\begin{block}{Per i ricercatori}
+		Divulgazione legata ai progetti scientifici
+	\end{block}
+\end{frame}
+%
+% Struttura
+%
+\section{Struttura}
+\subsection{Homepage}
+\begin{frame}[homepage]
+	\frametitle{L'homepage}
+	\begin{center}
+		\href{http://edu.iasfbo.inaf.it/}{\includegraphics[width=10cm]{files/eduinaf_home.jpg}}
+	\end{center}
+	Link: \href{http://edu.inaf.it/}{\textcolor{inaf}{edu.inaf.it}}
+\end{frame}
+%
+% Didattica
+%
+\subsection{Didattica}
+%
+\begin{frame}[didattica01]
+	\frametitle{Per la didattica}
+	\begin{center}
+		\href{http://edu.iasfbo.inaf.it/index.php/risorse-didattiche/}{\includegraphics[width=10cm]{files/risorse.jpg}}
+	\end{center}
+\end{frame}
+\begin{frame}[didattica02]
+	\frametitle{Per la didattica}
+		\begin{center}
+			\href{http://edu.iasfbo.inaf.it/index.php/attivita_didattica/costruzione-del-sistema-solare-in-scala/}{\includegraphics[width=10cm]{files/sistema_solare.jpg}}
+		\end{center}
+\end{frame}
+%
+\begin{frame}[didattica03]
+	\frametitle{Per la didattica}
+	\begin{center}
+		\href{http://edu.iasfbo.inaf.it/index.php/corsi-di-formazione/}{\includegraphics[width=10cm]{files/corsi.jpg}}
+	\end{center}
+\end{frame}
+%
+\begin{frame}[didattica04]
+	\frametitle{Per la didattica}
+	\begin{block}{}
+		Le due sezioni forniranno agli insegnanti delle scuole italiane (e più in generale a tutti coloro che sono interessati alla didattica e alla divulgazione) gli strumenti per introdurre al meglio l'astronomia nei programmi scolastici, partecipare alla realizzazione di tali strumenti e avere la possibilità di formare e migliorare le proprie competenze.
+	\end{block}
+\end{frame}
+%
+% Contenuti dinamici
+%
+\subsection{Eventi}
+%
+\begin{frame}[eventi]
+	\frametitle{Gli eventi}
+	\begin{center}
+		\includegraphics[width=10cm]{files/eventi.jpg}
+	\end{center}
+	Visualizzazione per \href{http://edu.iasfbo.inaf.it/index.php/eventi/}{\textcolor{inaf}{eventi}} e \href{http://edu.iasfbo.inaf.it/index.php/eventi/luoghi/}{\textcolor{inaf}{luoghi}}
+\end{frame}
+%
+\subsection{News}
+%
+\begin{frame}[news]
+	\frametitle{Le news}
+	\begin{center}
+		\href{http://edu.iasfbo.inaf.it/index.php/category/news/}{\includegraphics[width=10cm]{files/news.jpg}}
+	\end{center}
+\end{frame}
+%
+\subsection{Rubriche}
+%
+\begin{frame}[rubriche01]
+	\frametitle{Le rubriche}
+	\begin{center}
+		\href{http://edu.iasfbo.inaf.it/index.php/rubriche/}{\includegraphics[width=8cm]{files/rubriche.jpg}}
+	\end{center}
+\end{frame}
+%
+\begin{frame}[rubriche02]
+	\frametitle{Le rubriche: da implementare}
+	\begin{itemize}
+		\item<1-> L'astronomo risponde
+		\item<2-> AstroBlog
+	\end{itemize}
+\end{frame}
+%
+\subsection{Rete IRNET}
+%
+\begin{frame}[irnet]
+	\frametitle{Rete IRNET}
+	\begin{block}{}
+		La rete IRNET (\emph{Italian Remote Network of Educational Telescopes}) è l'insieme dei telescopi ottici e dei radiotelescopi gestiti dall'INAF sul territorio italiano e messi a disposizione del pubblico per attività didattiche e divulgative (e in alcuni casi anche per ricerca scientifica).
+	\end{block}
+\end{frame}
+%
+\subsection{WebINAF}
+%
+\begin{frame}[webinaf]
+	\frametitle{WebINAF}
+	\begin{block}{}
+		Pensata per essere una vera e propria sitografia, una raccolta di mini-siti didattici e divulgativi realizzati negli anni dalle sedi Inaf.
+	\end{block}
+\end{frame}
+%
+\subsection{Timeline}
+%
+\begin{frame}
+	\frametitle{Prossimi passi}
+	\begin{block}{}
+		Una prima versione del sito per fine ottobre. E poi sempre maggiori contenuti con l'anno nuovo.
+	\end{block}
+\end{frame}
+%
+\section{Ringraziamenti}
+%
+\begin{frame}[contatti]
+	\begin{block}{Grazie per averci ascoltato}
+		Per informazioni scriveteci a eduinaf@inaf.it
+	\end{block}
+\end{frame}
+\end{document}
