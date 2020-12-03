@@ -9,3 +9,7 @@ Presentazioni realizzate per una serie di incontri con gli insegnanti al Liceo *
 * *Il meraviglioso mondo quantistico* ([.pdf](https://github.com/ulaulaman/presentazioni/blob/master/parabiago/pdf/mondo_quantistico.pdf) | [.tex](https://github.com/ulaulaman/presentazioni/blob/master/parabiago/mondo_quantistico.tex))
 * *Vincere un Nobel per la fisica con i disegni* ([.pdf](https://github.com/ulaulaman/presentazioni/blob/master/parabiago/pdf/feynman.pdf) | [.tex](https://github.com/ulaulaman/presentazioni/blob/master/parabiago/feynman.tex))
 * *Una storia di paradossi, disuguaglianze e baffi* ([.pdf](https://github.com/ulaulaman/presentazioni/blob/master/parabiago/pdf/paradossi_disuguaglianze.pdf) | [.tex](https://github.com/ulaulaman/presentazioni/blob/master/parabiago/paradossi_disuguaglianze.tex))
+
+# Conferenze a congressi
+
+* *ComunicareFisica 2012* ([.pdf](https://github.com/ulaulaman/presentazioni/blob/master/conferenze/pdf/comunicarefisica2012.pdf) | [.tex](https://github.com/ulaulaman/presentazioni/blob/master/conferenze/comunicarefisica2012.tex))
