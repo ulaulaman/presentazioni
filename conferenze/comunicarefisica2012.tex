@@ -1,0 +1,73 @@
+\documentclass{beamer}
+
+\usepackage{ifpdf}
+\ifpdf
+\usepackage[hyperindex]{hyperref}
+\pdfadjustspacing=1
+\fi
+
+\mode<presentation>
+ {
+  \usetheme{Frankfurt}
+   \usecolortheme[rgb={0.5,0.5,0}]{structure}
+   
+   \definecolor{darkblue}{rgb}{0,0,0.8}
+   \definecolor{autumn}{rgb}{0.9,0.9,0.8}
+   \definecolor{autumn1}{rgb}{0.95,0.95,0.9}
+   \definecolor{autumn2}{rgb}{0.33,0.33,0.1}
+
+\setbeamercolor{alerted text}{fg=darkblue!80!yellow}
+\setbeamercolor*{palette primary}{fg=darkblue!60!black,bg=autumn}
+\setbeamercolor*{palette secondary}{fg=white!70!black,bg=autumn2}
+\setbeamercolor*{palette tertiary}{bg=white!80!black,fg=autumn2}
+\setbeamercolor*{palette quaternary}{fg=white,bg=autumn2}
+
+\setbeamercolor*{sidebar}{fg=darkblue,bg=autumn}
+
+\setbeamercolor*{palette sidebar primary}{fg=darkblue!10!black}
+\setbeamercolor*{palette sidebar secondary}{fg=white}
+\setbeamercolor*{palette sidebar tertiary}{fg=darkblue!50!black}
+\setbeamercolor*{palette sidebar quaternary}{fg=yellow!10!orange}
+
+\setbeamercolor*{titlelike}{parent=palette primary}
+\setbeamercolor{frametitle}{bg=autumn1}
+\setbeamercolor{frametitle right}{bg=autumn}
+
+\setbeamercolor*{separation line}{}
+\setbeamercolor*{fine separation line}{}
+
+\mode
+<all>
+   
+   %\usecolortheme{wolverine}
+   \usecolortheme{rose}
+   \usefonttheme{serif}
+%   \setbeamercolor{section in toc}{fg=red}
+ }
+
+\title[Un network italiano]{United we stand: Siamo pronti per fare network?}
+\author[G.Filippelli, M.Colaiacovo]{Gianluigi Filippelli, Moreno Colaiacovo}
+\date{Comunicare Fisica - Torino, 11/10/2012}
+
+\usepackage[latin1]{inputenc}
+\usepackage[italian]{babel}
+\usepackage{times}
+%
+\begin{document}
+%
+\begin{frame}
+ \titlepage
+\end{frame}
+%
+\section*{Sommario}
+\begin{frame}
+ \scriptsize
+ \tableofcontents[pausesections]
+\end{frame}
+%
+% Seminario
+%
+\input{files/blog}
+\input{files/blog_ricerca}
+%
+\end{document}
