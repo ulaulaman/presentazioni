@@ -4,6 +4,12 @@ Pagina che raccoglie le mie presentazioni. Realizzate con Beamer, per ognuna ven
 
 * *Piccolo è meglio*: Ant-Man ([pdf](https://github.com/ulaulaman/presentazioni/blob/master/supereroi/ant-man.pdf))
 * *In fondo al mar*: Aquaman ([pdf](https://github.com/ulaulaman/presentazioni/blob/master/supereroi/aquaman.pdf))
+* *Conviene farsi salvare da Batman*: Batman vs Spider-Man ([pdf](https://github.com/ulaulaman/presentazioni/blob/master/supereroi/batman_spiderman.pdf))
+* *Lo scudo di Capitan America* ([pdf](https://github.com/ulaulaman/presentazioni/blob/master/supereroi/cap_america.pdf))
+* *Meraviglie cosmiche*: Capitan Marvel ([pdf](https://github.com/ulaulaman/presentazioni/blob/master/supereroi/cap_marvel.pdf))
+* *Quelli che cavalcano il fulmine*: Flash ([pdf](https://github.com/ulaulaman/presentazioni/blob/master/supereroi/flash.pdf))
+* *Supereroi su Marte*: Justice Society of America ([pdf](https://github.com/ulaulaman/presentazioni/blob/master/supereroi/jsa_marte.pdf))
+* *Su, su e via*: Superman ([pdf](https://github.com/ulaulaman/presentazioni/blob/master/supereroi/superman.pdf))
 
 # Liceo Cavalleri di Parabiago
 
