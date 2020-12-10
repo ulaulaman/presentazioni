@@ -11,6 +11,11 @@ Pagina che raccoglie le mie presentazioni. Realizzate con Beamer, per ognuna ven
 * *Supereroi su Marte*: Justice Society of America ([pdf](https://github.com/ulaulaman/presentazioni/blob/master/supereroi/jsa_marte.pdf))
 * *Su, su e via*: Superman ([pdf](https://github.com/ulaulaman/presentazioni/blob/master/supereroi/superman.pdf))
 
+# Presentazioni su Kerbal Space Program
+
+* *Da marte a Kerbin passando per Brera*, con Stefano Sandrelli ([pdf](https://github.com/ulaulaman/presentazioni/blob/master/kerbal/intro_kerbal.pdf))
+* *Kerbal for teachers*, con Agatino Rifatto per il *Maker Faire* di Roma del 2019 ([pdf](https://github.com/ulaulaman/presentazioni/blob/master/kerbal/kerbal_roma.pdf))
+
 # Liceo Cavalleri di Parabiago
 
 Presentazioni realizzate per una serie di incontri con gli insegnanti al Liceo *Cavalleri* di Parabiago (Milano)
