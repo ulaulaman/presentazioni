@@ -34,3 +34,8 @@ Presentazioni realizzate per una serie di incontri con gli insegnanti al Liceo *
 
 * *SAIt 2017* ([pdf](https://github.com/ulaulaman/presentazioni/blob/master/conferenze/pdf/SAIt2017-filippelli_barbalini.pdf) | [tex](https://github.com/ulaulaman/presentazioni/blob/master/conferenze/comunicarefisica2012.tex))
 * *ComunicareFisica 2012* ([pdf](https://github.com/ulaulaman/presentazioni/blob/master/conferenze/pdf/comunicarefisica2012.pdf) | [tex](https://github.com/ulaulaman/presentazioni/blob/master/conferenze/SAIt2017.tex))
+
+# Presentazioni varie
+
+* *Scrivere in HTML*, presentazione presso il Liceo Scientifico Scorza di Cosenza ([pdf](https://github.com/ulaulaman/presentazioni/blob/master/conferenze/pdf/html.pdf))
+* *Wikipedia: Template*, presentazione presso l'Università della Calabria ([pdf](https://github.com/ulaulaman/presentazioni/blob/master/conferenze/pdf/wikiT.pdf))
