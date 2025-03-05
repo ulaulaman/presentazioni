@@ -3,7 +3,6 @@ title: Presentazioni
 author: ulaulaman
 avatar: https://avatars.githubusercontent.com/u/34242086?v=4
 description: "Un blogghetto per presentare le presentazioni!"
-lang: it
 
 # Build settings
 remote_theme: zivong/jekyll-theme-hamilton
