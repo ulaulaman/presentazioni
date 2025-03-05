@@ -4,4 +4,4 @@ author: ulaulaman
 description: "Un piccolo blog per le mie presentazioni"
 
 # Build settings
-remote_theme: andrewbanchich/editorial-jekyll-theme # Theme
+remote_theme: jekyll/editorial
