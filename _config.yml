@@ -5,3 +5,4 @@ description: "Una prova di costruzione del sito"
 
 # Build settings
 remote_theme: zivong/jekyll-theme-hamilton
+skin: Midnight
