@@ -1,6 +1,7 @@
 # Site settings
 title: GPresentazioni
-author: ulaulaman
+author: 
+  name: ulaulaman
 description: "Un piccolo blog per le mie presentazioni"
 
 # Build settings
@@ -8,3 +9,8 @@ remote_theme: jekyll/minima
 
 minima:
   skin: solarized-dark
+  show_excerpts: true
+  social_links:
+    - title: ulaulaman's repository at GitHub
+      icon: github
+      url: "https://github.com/ulaulaman"
