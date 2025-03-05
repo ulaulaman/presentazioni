@@ -5,3 +5,6 @@ description: "Un piccolo blog per le mie presentazioni"
 
 # Build settings
 remote_theme: jekyll/minima
+
+minima:
+  skin: solarized-dark
