@@ -1,4 +1,4 @@
 ---
 layout: home 
 ---
-Benvenuti!
+Una blogghetto per presentare le... presentazioni!
