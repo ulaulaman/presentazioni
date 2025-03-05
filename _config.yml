@@ -1,1 +1,8 @@
-theme: jekyll-theme-leap-day
+# Site settings
+title: Titolo del blog
+author:
+  name: ulaulaman
+description: "Una prova di costruzione del sito"
+
+# Build settings
+remote_theme: jekyll/minima
