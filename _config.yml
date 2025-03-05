@@ -1,9 +1,7 @@
 # Site settings
-title: Great New Blog Title
-author:
-  name: Evan Will
-  email: your-email@domain.com
-description: "Great site about Jekyll on GH-Pages."
+title: GPresentazioni
+author: ulaulaman
+description: "Un piccolo blog per le mie presentazioni"
 
 # Build settings
 remote_theme: jekyll/minima
