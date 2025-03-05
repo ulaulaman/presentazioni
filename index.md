@@ -1,4 +1,0 @@
----
-layout: home 
----
-Un blogghetto
